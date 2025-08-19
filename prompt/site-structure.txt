@@ -38,7 +38,7 @@ Language toggle: Hebrew (default) ↔ English
 
 In Hebrew, layout must be Right to Left, with בית as the rightmost item
 
-Top navigation bar on all pages with the picture logog with name.png
+Top navigation bar on all pages with the picture @logo.png
 
 Footer with contact details, newsletter, rights reserved and disclaimer
 

@@ -1,51 +1,27 @@
 FAQ — "Things You Might Wonder"
-Goal: Build an FAQ where each question is a speech bubble. Clicking/tapping the bubble reveals the answer below it (accordion behavior). Must support RTL (Hebrew) and LTR (English), be keyboard accessible, and keep English punctuation inside quotes and using curly quotes.
+Build a bilingual FAQ section (Hebrew/English) with an accordion design.
 
-Requirements
+Clicking a question opens the answer, clicking again closes it.
 
-Structure: list of items; each item has a button (the bubble) and a hidden panel (the answer).
+Must support RTL for Hebrew and LTR for English.
 
-Accessibility: button[aria-expanded], aria-controls, panel role="region", aria-labelledby, hidden toggled in JS, Enter/Space opens, Esc closes active panel.
+Keep it accessible (keyboard navigation, ARIA roles).
 
-Direction: respect page dir (dir="rtl" for Hebrew pages, dir="ltr" for English pages). Layout and tail of bubble flips with [dir="rtl"] CSS.
+Use gentle animations (fade/slide) that respect accessibility settings.
 
-Motion: subtle scale/fade on open; respect prefers-reduced-motion.
+Style should be minimal, warm, and calming, using my site palette.
 
-English punctuation: for lang="en":
+At the top, include a soft intro line:
 
-Use curly quotes “ … ”.
+HE: "שאלות שמבצבצות לפעמים בראש – וראוי לתת להן מקום"
 
-Place commas/periods inside the closing quote.
+EN: "Questions that quietly come up — and deserve space to be heard"
 
-Auto-smarten straight quotes in questions (optional helper below).
+At the bottom, include a gentle call to action:
 
-Color usage (from your palette)
+HE: "אם השאלה שלך לא הופיעה כאן – את מוזמנת לפנות ולשאול"
 
-Bubble background: #d9cac5
-
-Bubble border: #ccc7c4
-
-Bubble hover/focus outline: #9f5e36
-
-Answer panel left border: #a06a4d
-
-Answer panel background: #eeedeb
-
-Notes
-
-Put the page <html> as lang="he" dir="rtl" for Hebrew, lang="en" dir="ltr" for English pages.
-
-For mixed pages, set lang on each question/answer span as shown.
-
-Keep question text free of extra added quotes in CSS; include them as characters so the English smart-quotes helper can fix them.
-
-
-Include a calming line at the top:
-
-Hebrew: "שאלות שמבצבצות לפעמים בראש – וראוי לתת להן מקום"
-
-English: "Questions that quietly come up — and deserve space to be heard"
-
+EN: "Didn’t see your question here? Feel free to reach out and ask."
 
 ---
 
@@ -181,12 +157,4 @@ I’m a licensed clinical psychologist and provide receipts that can be submitte
 אני פסיכולוגית קלינית מומחית, ומספקת קבלות להחזר ביטוחי (במקרים בהם הפוליסה מאפשרת זאת). בנוסף, אני רשומה במוסד לביטוח לאומי כפסיכולוגית מורשית לטיפול בנפגעי פעולות איבה או מלחמה.
 
 ---
-
-Add a gentle CTA at the bottom:
-
-HE: אם השאלה שלך לא הופיעה כאן – את מוזמנת לפנות ולשאול.
-
-EN: Didn’t see your question here? Feel free to reach out and ask.
-
-Add soft hover or expand effects for answers, without hiding them by default
-
+add this pictures in this page  (`COFFEE.jpg`, `desk ipad.jpg`)

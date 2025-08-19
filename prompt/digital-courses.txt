@@ -10,3 +10,10 @@ Course title
 Description
 
 Sign-up or purchase button (inactive for now)
+
+Visual:
+Use photos (`IPAD.jpg`)
+
+Use images as icons or decorative: @feather pen.jpg, @leaves.jpg, @pine cone.jpg
+
+add soft visual accent (icon or background illustration)

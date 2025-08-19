@@ -118,62 +118,26 @@ Use the following visuals to add texture and personality — not as focus, but t
 | FAQ                 | `#cfc0b7`   | `#000`     | `#a06a4d`      |
 | Footer              | `#a06a4d`   | `#fff`     | Icons `#ccc7c4` |
 
+
+Images — Global Rules (apply to all pages)
+
+Files live at /images/ 
+Use these exact filenames (lowercase, no spaces):
+habait.jpg, therapy.jpg, red-door.jpg, rainbow.jpg, ipad.jpg, books-in-the-back.jpg, writing.jpg, coffee.jpg, desk-ipad.jpg, couch.jpg
+
+If an image is missing, render a visible placeholder: a light box with the text IMAGE MISSING: <filename> (do not hide).
+
+Markup: wrap each image in <figure> with <img> + <figcaption> (optional).
+
+Accessibility: meaningful alt text; loading="lazy".
+
+Sizing: responsive, 16:9 for heroes, 4:3 for content images.
+Use object-fit: cover; object-position: center;
+
+Styling: rounded corners, soft shadow, subtle hover zoom (respect prefers-reduced-motion).
+
+RTL/LTR: images align center on mobile; on desktop, follow layout rules below and auto-flip margins for RTL. 
 ---
-
-## 🖼 Page-specific Images
-
-Integrate the following images into the design of each page.  
-Images should blend naturally into the page layout — either as part of the background, hero section, or as decorative accents — without distracting from the content.  
-Ensure they are **responsive**, **optimized**, and **consistent with the site's warm, minimal, and professional tone**.
-
-### General Rules
-- Maintain the site's **color palette** and tone in how images are presented (slight warm filter if needed).
-- **Responsive design**: images must scale appropriately on all devices without cropping important details.
-- **Accessibility**:
-  - If the image is informative or thematic: include short, descriptive `alt` text in the correct language.
-  - If purely decorative: `alt=""` and `aria-hidden="true"`.
-- **Lazy loading**: use `loading="lazy"` for all non-hero images.
-- For **Hebrew (RTL)** pages, align decorative images to the right; for **English (LTR)**, align them to the left.
-- Blend images subtly where noted (low opacity overlay, background integration, or softened edges).
-
----
-
-### Page Assignments
-
-- **Home Page (`habait.jpg`)**  
-  Use as the main hero background image, blended with a soft overlay that matches the palette (`#eeedeb` or `#cfc0b7`). Place behind the welcome text.
-
-- **About Page (`THERAPY.jpg`, `red door.jpg`)**  
-  - `THERAPY.jpg`: Full-width image at the top under the page title.  
-  - `red door.jpg`: Decorative accent image blended into a side column or as a semi-transparent background behind a section of text.
-
-- **Areas of Therapy (`RAINBOW.jpg`)**  
-  Use as a wide banner between the intro and therapy category cards, with a soft opacity so text can overlay if needed.
-
-- **Digital Courses & Lectures (`IPAD.jpg`)**  
-  Hero image at the top of the page showing the iPad. Blend subtly with a warm overlay to match the site tone.
-
-- **Lectures (`books in the back.jpg`)**  
-  Banner image under the title section. Slight blur allowed to keep text legible if overlaid.
-
-- **Publications (`WRITING.jpg`)**  
-  Use as a hero or top banner image with a light vignette effect to focus attention on the content area.
-
-- **FAQ (`COFFEE.jpg`, `desk ipad.jpg`)**  
-  - `COFFEE.jpg`: Large calming header image above the first question.  
-  - `desk ipad.jpg`: Decorative inline image between question groups, floated right for Hebrew pages, left for English pages.
-
-- **Contact (`COUCH.jpg`)**  
-  Place as a full-width image at the top or as a side panel background next to the contact form. Apply subtle shadow or overlay to make the form stand out.
-
----
-
-### Styling Consistency
-- Rounded corners or soft shadows for inline/decorative images.
-- Use **background-position: center** for banners to maintain visual focus.
-- For blended images, use CSS overlays (e.g., `linear-gradient`) in palette colors for cohesion.
-
-----
 
 ## 🧩 Final Notes
 

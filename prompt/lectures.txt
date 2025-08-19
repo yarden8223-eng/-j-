@@ -10,3 +10,10 @@ Title of lecture
 Audience type
 
 Booking info / contact
+
+Visual:
+Use photos  (`books in the back.jpg`, `COUCH.jpg`)
+
+Use images as icons or decorative: @feather pen.jpg, @leaves.jpg, @pine cone.jpg
+
+add soft visual accent (icon or background illustration)

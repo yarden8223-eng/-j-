@@ -37,11 +37,9 @@ FB: https://www.facebook.com/yarden.g.psychologist
 whatsapp: wa.me/972524543553
 
 Visual:
-One personal photo
+One personal photo (`habait.jpg`)
 
-One decorative calming image
-
-Use images: @feather pen.jpg, @leaves.jpg, @pine cone.jpg
+Use images as icons or decorative: @feather pen.jpg, @leaves.jpg, @pine cone.jpg
 
 Newsletter Signup:
 Fields: Name, Email

@@ -30,6 +30,8 @@ Medical hypnosis course (Sheba Medical Center)
 קורס עיבוד קוגניטיבי (CPT), בית קוגנטיקה 
 
 Visual:
-Professional photo
+Use photos (`THERAPY.jpg`, `red door.jpg`)
+
+Use images as icons or decorative: @feather pen.jpg, @leaves.jpg, @pine cone.jpg
 
 add soft visual accent (icon or background illustration)
