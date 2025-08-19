@@ -694,6 +694,17 @@ p {
         gap: 1.5rem;
     }
 
+    .therapy-image-overlay {
+        position: static;
+        margin: 2rem auto;
+        text-align: center;
+    }
+
+    .therapy-image {
+        max-width: 250px;
+        transform: rotate(-3deg);
+    }
+
     .newsletter-form {
         flex-direction: column;
     }
@@ -980,6 +991,32 @@ p {
 .therapy-approach {
     padding: var(--section-padding);
     background: var(--accent-light);
+    position: relative;
+}
+
+.therapy-image-overlay {
+    position: absolute;
+    top: -200px;
+    left: 10%;
+    z-index: 10;
+}
+
+.therapy-image {
+    max-width: 300px;
+    transform: rotate(-5deg);
+}
+
+.therapy-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: var(--transition);
+}
+
+.therapy-image img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
 }
 
 .approach-content {
