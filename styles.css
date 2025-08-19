@@ -680,6 +680,20 @@ p {
         max-width: 350px;
     }
 
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .about-visual {
+        position: static;
+        margin-top: 2rem;
+    }
+
+    .about-images {
+        gap: 1.5rem;
+    }
+
     .newsletter-form {
         flex-direction: column;
     }
@@ -788,9 +802,15 @@ p {
     top: 120px;
 }
 
-.photo-container {
-    position: relative;
+.about-images {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
     margin-bottom: 2rem;
+}
+
+.about-image {
+    margin: 0;
 }
 
 .about-photo {
@@ -798,6 +818,12 @@ p {
     height: auto;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: var(--transition);
+}
+
+.about-photo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
 }
 
 .photo-decoration {
