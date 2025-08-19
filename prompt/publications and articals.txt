@@ -1,0 +1,79 @@
+Use this section to showcase professional writing — both published externally and hosted directly on the site. Organize the content to create a smooth reading experience for visitors while highlighting your expertise in mental health topics.
+
+✅ Structure:
+Section Title:
+Publications & Articles 
+
+Introductory Text:
+I regularly write about topics related to mental health, trauma, resilience, and emotional well-being — both in public media and professional spaces. Below you’ll find selected articles I've published on trusted platforms and original pieces hosted here.
+
+אני כותבת באופן קבוע על נושאים הקשורים לבריאות נפשית, טראומה, חוסן ורווחה רגשית — גם בתקשורת הציבורית וגם במרחבים מקצועיים. כאן תמצאי מבחר כתבות שפורסמו בפלטפורמות מוכרות, לצד טקסטים מקוריים המתארחים באתר.
+
+🔗 1. Featured in the Media
+Show these as elegant article cards with:
+
+Title
+
+1–2 sentence description (you can write these or auto-pull metadata later)
+
+External link (open in new tab)
+
+List of articles:
+
+json
+
+[
+  {
+    "title": "למה זה כל כך קשה לראות את טקסי יום הזיכרון?",
+    "description": "כתבה על ההשפעות הרגשיות של צפייה בטקסי זיכרון והמתח הנפשי שמתעורר אצל רבים.",
+    "url": "https://www.mako.co.il/health-magazine/Article-97bf7860dff0f81026.htm"
+  },
+  {
+    "title": "כאב שאין לו מילים: איך להקשיב לסבל בלי אשמה",
+    "description": "מילים על האתגר שבמפגש עם כאב של אחרים — ואיך לאט לאט לפנות לו מקום.",
+    "url": "https://healthy.walla.co.il/item/3743951"
+  },
+  {
+    "title": "למה אנחנו לא מצליחים להירדם כשאנחנו בלחץ?",
+    "description": "מבט פסיכולוגי על מנגנוני עקה ושינה, ואיך הגוף מגיב לאיום גם כשהוא רק בראש.",
+    "url": "https://healthy.walla.co.il/item/3743964"
+  },
+  {
+    "title": "כך תשוחחו עם ילדים על מראות קשים מהחדשות",
+    "description": "הנחיות להורים שמתמודדים עם שאלות של ילדים בעקבות חדשות אלימות או טראומתיות.",
+    "url": "https://www.ynet.co.il/health/article/hkwhouikgl"
+  },
+  {
+    "title": "לא מצליחים לתפקד מאז ה-7 באוקטובר? אתם לא לבד",
+    "description": "מילים על הקושי הנפשי שנמשך גם חודשים אחרי טראומה, ולמה זו תגובה נורמלית לגמרי.",
+    "url": "https://www.ynet.co.il/health/article/sywei9gslg"
+  }
+]
+📝 2. Original Articles on Site
+Display in a blog-style layout with filtering:
+
+Title
+
+Short excerpt (2–3 lines)
+
+Tags (e.g., trauma, grief, parenting)
+
+“Read More” button → opens full article in modal or dedicated page
+
+How to structure:
+Read articles from a כתבות folder. Each should include frontmatter with:
+
+
+title: "..."
+excerpt: "..."
+tags: ["trauma", "resilience"]
+Allow filters by tag at the top (toggle or dropdown).
+
+UX:
+
+Soft animation on hover
+
+Light theme with plenty of white space
+
+Use warm accent color for category tags or “Read More” buttons
+

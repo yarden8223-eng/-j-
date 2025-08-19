@@ -1,0 +1,12 @@
+Placeholder for upcoming lectures. Show:
+
+“Coming Soon” / “המשך יבוא...”
+Allow future expansion.
+
+Include space for:
+
+Title of lecture
+
+Audience type
+
+Booking info / contact

@@ -1,0 +1,12 @@
+Create a placeholder section that says:
+
+“Coming Soon” / “המשך יבוא...”
+No need to design or name specific courses yet.
+
+Include space for:
+
+Course title
+
+Description
+
+Sign-up or purchase button (inactive for now)

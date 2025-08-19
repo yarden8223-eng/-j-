@@ -1,0 +1,182 @@
+# 🎨 Design Guide for Yarden Gabbay’s Website
+
+This guide outlines the visual identity, UX tone, layout rules, and styling decisions for the website. The design should reflect **warmth, professionalism, clarity, and emotional depth**, supporting the tone of a clinical psychologist working with trauma, resilience, and emotional well-being.
+
+---
+
+## 🌈 Color Palette
+
+### Primary Background
+- `#eeedeb` → Use as the **default background** for all pages. Clean, warm, and soft.
+
+### Primary Accent & Footer
+- `#a06a4d` → Rich brown tone for the **footer**, primary **call-to-action buttons**, and **section dividers**.
+
+### Secondary Accents
+Use sparingly for depth, contrast, or highlights:
+
+| Purpose                    | Color Code  | Usage                                           |
+|----------------------------|-------------|--------------------------------------------------|
+| Article Tags               | `#bf977d`   | Neutral pink-tan, soft category tags             |
+| Hover & Link Effects       | `#9f5e36`   | Warm rust-orange for hover/focus states          |
+| Blockquotes / Highlights   | `#cfc0b7`   | Light creamy grey to separate key content        |
+| Sidebar / Filter UI        | `#c7aea2`   | Pale muted pink for background accents           |
+| Secondary Text / Notes     | `#b4a59d`   | Subheadings, small notes                         |
+| Card Backgrounds           | `#d9cac5`   | Gentle pinkish-gray for content blocks           |
+| Accent Buttons (alt)       | `#b97c44`   | For secondary buttons like “Read More”           |
+| Form Borders / Lines       | `#ccc7c4`   | Subtle outlines, input borders                   |
+
+Use generous white/neutral space between colored elements. Avoid overwhelming the user with too many accent colors at once.
+
+---
+
+## 🖋 Typography
+
+### Hebrew Fonts
+- **Primary**: `Assistant`
+- **Alternate**: `Noto Sans Hebrew`
+
+### English Fonts
+- **Primary**: `Lora` (serif, for elegance)
+- **Alternate**: `Open Sans` (clean sans-serif for UI text)
+
+### Typography Guidelines
+- Use **large headings** with generous spacing
+- Break content into **short blocks of text**
+- Avoid justified text (left-align for natural flow)
+- Maintain **consistent font sizes** across languages
+
+| Text Type       | Font         | Style/Size Example         |
+|------------------|--------------|-----------------------------|
+| Main Headings    | Lora / Assistant | Bold, ~36–48px              |
+| Subheadings      | Open Sans / Assistant | Semi-bold, ~20–24px    |
+| Body Text        | Open Sans / Assistant | Regular, ~16–18px        |
+| Quotes/Highlights| Lora Italic | ~18px, colored bg if needed |
+
+---
+
+## 🧭 UX & Layout Guidelines
+
+### General Feel
+- Minimalist, clean, and **emotionally calm**
+- Support **trust** and **professionalism** without coldness
+- Use **soft spacing**, round corners, and large padding
+
+### Navigation
+- Fixed top nav with subtle scroll background (transparent → `#eeedeb`)
+- Mobile menu should slide in smoothly
+- Use sticky sidebar or filter menus for longer sections (like Publications)
+
+### Content Blocks
+- Each section should breathe — use **clear vertical spacing**
+- Divide longer sections with neutral backgrounds (`#cfc0b7`, `#ccc7c4`)
+- Alternate light content blocks with white background for rhythm
+
+### Interactions & Feedback
+- **Hover effects**: Buttons and links change to `#9f5e36`, underline or fade
+- **Forms**: Minimal style with `#ccc7c4` borders, focus state with `#a06a4d`
+- **“Read More” buttons**: Slight raise or shadow on hover
+- **Tags**: Rounded pills using `#bf977d` or `#c7aea2`
+
+---
+
+## ✨ Animations & Motion
+
+Use **subtle, elegant animations** that support clarity without distraction:
+
+- **Text Fade-In on Load** (`opacity 0 → 1`, delay staggered per section)
+- **Slide-In from Bottom or Side on Scroll** (used on article cards, FAQ items)
+- **Hover States**: Soft color shift, slight scale (max 1.03), underline on links
+
+**Avoid**:
+- Fast or flashy transitions
+- Parallax, bounce, or sudden scaling
+
+---
+
+## 🌿 Decorative Elements
+
+Use the following visuals to add texture and personality — not as focus, but to support warmth and grounding:
+
+- 🖋 `@feather pen.jpg`: use near quote blocks or article sections  
+- 🍃 `@leaves.jpg`: as a background watermark or section break  
+- 🌰 `@pine cone.jpg`: subtle icon on footer or contact page
+
+**Use sparingly**, in soft opacity or monochrome form, to maintain a minimal feel.
+
+---
+
+## ✅ Example Color Application by Section
+
+| Section             | Background  | Text       | Accent/Button |
+|---------------------|-------------|------------|----------------|
+| Homepage Hero       | `#eeedeb`   | `#000`     | `#a06a4d`      |
+| About / Bio         | `#d9cac5`   | `#000`     | `#9f5e36`      |
+| Therapy Page        | `#eeedeb`   | `#000`     | `#bf977d`      |
+| Courses / Lectures  | `#f4f2f0`   | `#000`     | `#b97c44`      |
+| Publications        | `#fff`      | `#000`     | `#a06a4d`, tags `#c7aea2` |
+| FAQ                 | `#cfc0b7`   | `#000`     | `#a06a4d`      |
+| Footer              | `#a06a4d`   | `#fff`     | Icons `#ccc7c4` |
+
+---
+
+## 🖼 Page-specific Images
+
+Integrate the following images into the design of each page.  
+Images should blend naturally into the page layout — either as part of the background, hero section, or as decorative accents — without distracting from the content.  
+Ensure they are **responsive**, **optimized**, and **consistent with the site's warm, minimal, and professional tone**.
+
+### General Rules
+- Maintain the site's **color palette** and tone in how images are presented (slight warm filter if needed).
+- **Responsive design**: images must scale appropriately on all devices without cropping important details.
+- **Accessibility**:
+  - If the image is informative or thematic: include short, descriptive `alt` text in the correct language.
+  - If purely decorative: `alt=""` and `aria-hidden="true"`.
+- **Lazy loading**: use `loading="lazy"` for all non-hero images.
+- For **Hebrew (RTL)** pages, align decorative images to the right; for **English (LTR)**, align them to the left.
+- Blend images subtly where noted (low opacity overlay, background integration, or softened edges).
+
+---
+
+### Page Assignments
+
+- **Home Page (`habait.jpg`)**  
+  Use as the main hero background image, blended with a soft overlay that matches the palette (`#eeedeb` or `#cfc0b7`). Place behind the welcome text.
+
+- **About Page (`THERAPY.jpg`, `red door.jpg`)**  
+  - `THERAPY.jpg`: Full-width image at the top under the page title.  
+  - `red door.jpg`: Decorative accent image blended into a side column or as a semi-transparent background behind a section of text.
+
+- **Areas of Therapy (`RAINBOW.jpg`)**  
+  Use as a wide banner between the intro and therapy category cards, with a soft opacity so text can overlay if needed.
+
+- **Digital Courses & Lectures (`IPAD.jpg`)**  
+  Hero image at the top of the page showing the iPad. Blend subtly with a warm overlay to match the site tone.
+
+- **Lectures (`books in the back.jpg`)**  
+  Banner image under the title section. Slight blur allowed to keep text legible if overlaid.
+
+- **Publications (`WRITING.jpg`)**  
+  Use as a hero or top banner image with a light vignette effect to focus attention on the content area.
+
+- **FAQ (`COFFEE.jpg`, `desk ipad.jpg`)**  
+  - `COFFEE.jpg`: Large calming header image above the first question.  
+  - `desk ipad.jpg`: Decorative inline image between question groups, floated right for Hebrew pages, left for English pages.
+
+- **Contact (`COUCH.jpg`)**  
+  Place as a full-width image at the top or as a side panel background next to the contact form. Apply subtle shadow or overlay to make the form stand out.
+
+---
+
+### Styling Consistency
+- Rounded corners or soft shadows for inline/decorative images.
+- Use **background-position: center** for banners to maintain visual focus.
+- For blended images, use CSS overlays (e.g., `linear-gradient`) in palette colors for cohesion.
+
+----
+
+## 🧩 Final Notes
+
+- All elements should **feel breathable and slow-paced** — space is part of the design.
+- Use a **warm but professional tone** throughout: never cold, never overly casual.
+- If unsure, **lean into simplicity** — fewer styles, more clarity.

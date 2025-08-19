@@ -1,0 +1,192 @@
+FAQ — "Things You Might Wonder"
+Goal: Build an FAQ where each question is a speech bubble. Clicking/tapping the bubble reveals the answer below it (accordion behavior). Must support RTL (Hebrew) and LTR (English), be keyboard accessible, and keep English punctuation inside quotes and using curly quotes.
+
+Requirements
+
+Structure: list of items; each item has a button (the bubble) and a hidden panel (the answer).
+
+Accessibility: button[aria-expanded], aria-controls, panel role="region", aria-labelledby, hidden toggled in JS, Enter/Space opens, Esc closes active panel.
+
+Direction: respect page dir (dir="rtl" for Hebrew pages, dir="ltr" for English pages). Layout and tail of bubble flips with [dir="rtl"] CSS.
+
+Motion: subtle scale/fade on open; respect prefers-reduced-motion.
+
+English punctuation: for lang="en":
+
+Use curly quotes “ … ”.
+
+Place commas/periods inside the closing quote.
+
+Auto-smarten straight quotes in questions (optional helper below).
+
+Color usage (from your palette)
+
+Bubble background: #d9cac5
+
+Bubble border: #ccc7c4
+
+Bubble hover/focus outline: #9f5e36
+
+Answer panel left border: #a06a4d
+
+Answer panel background: #eeedeb
+
+Notes
+
+Put the page <html> as lang="he" dir="rtl" for Hebrew, lang="en" dir="ltr" for English pages.
+
+For mixed pages, set lang on each question/answer span as shown.
+
+Keep question text free of extra added quotes in CSS; include them as characters so the English smart-quotes helper can fix them.
+
+
+Include a calming line at the top:
+
+Hebrew: "שאלות שמבצבצות לפעמים בראש – וראוי לתת להן מקום"
+
+English: "Questions that quietly come up — and deserve space to be heard"
+
+
+---
+
+**What is your cancellation policy?**  
+**מהי מדיניות הביטולים?**  
+If you need to cancel or reschedule a session, I ask for at least 24 hours' notice. Cancellations made with less than 24 hours’ notice are charged at the full session fee.  
+במקרה של ביטול או דחיית פגישה, אני מבקשת ליידע לפחות 24 שעות מראש. ביטול בטווח קצר יותר מחויב בתשלום מלא עבור הפגישה.
+
+---
+
+**Is therapy confidential?**  
+**האם הטיפול נשמר חסוי?**  
+Yes. Everything discussed in therapy is kept strictly confidential, in accordance with the ethical guidelines of the Ministry of Health and the Israeli Psychological Association. There are rare exceptions related to safety concerns, which I’ll explain in our first meeting.  
+כן. כל מה שנאמר במסגרת הטיפול נשמר בסודיות מלאה, בהתאם לכללי האתיקה של משרד הבריאות והסתדרות הפסיכולוגים. ישנם חריגים נדירים שקשורים לבטיחות, עליהם אסביר בפגישה הראשונה.
+
+---
+
+**Where is your office located?**  
+**היכן נמצאת הקליניקה שלך?**  
+My clinic is located in Ramat Gan. The exact address will be shared once we schedule a session.  
+הקליניקה ממוקמת ברמת גן. הכתובת המדויקת תימסר לאחר קביעת מועד לפגישה.
+
+---
+
+**Is the space accessible (e.g., wheelchair accessible)?**  
+**האם הקליניקה נגישה?**  
+Yes, the clinic is fully wheelchair accessible.  
+כן, הקליניקה מונגשת באופן מלא לכיסאות גלגלים.
+
+---
+
+**How do I schedule an appointment?**  
+**איך קובעים פגישה?**  
+You can contact me via the Contact page on this site, by email, or by phone. I’ll get back to you as soon as possible to schedule an initial consultation.  
+אפשר ליצור קשר דרך עמוד יצירת הקשר באתר, במייל או בטלפון. אחזור אליך בהקדם האפשרי לתיאום פגישת היכרות.
+
+---
+
+**Do you offer sessions in other languages?**  
+**האם את מציעה טיפול גם בשפות אחרות?**  
+Yes, I offer therapy in both Hebrew and English.  
+כן. אני מטפלת בעברית ובאנגלית.
+
+---
+
+**What if I’m not sure therapy is right for me?**  
+**מה אם אני לא בטוח.ה שטיפול מתאים לי?**  
+That’s completely okay — many people feel uncertain at first. The initial sessions are a space to explore whether this feels helpful and whether we’re a good match. There’s no pressure or obligation to continue if it doesn’t feel right for you.  
+זה בסדר גמור – הרבה אנשים חשים חוסר ודאות בתחילת הדרך. הפגישות הראשונות הן מקום לבחון אם התהליך מתאים לך ואם יש תחושת חיבור. אין לחץ או התחייבות להמשיך אם זה לא מרגיש נכון עבורך.
+
+---
+
+**Can I contact you between sessions if needed?**  
+**האם אפשר ליצור איתך קשר בין הפגישות?**  
+You’re welcome to contact me between sessions for practical matters (like scheduling or cancellations). For emotional support, we’ll try to keep that within the therapy space, but we can explore together what kind of contact feels supportive and appropriate.  
+אפשר ליצור קשר בין פגישות לצרכים פרקטיים, כמו שינוי או ביטול תור. את התמיכה הרגשית נשתדל לשמור למרחב הטיפולי, אבל נשוחח יחד מהי מידת הקשר שתהיה תומכת ומתאימה.
+
+---
+
+**Is it normal to feel nervous about starting therapy?**  
+**האם זה נורמלי להרגיש לחוץ לפני התחלת טיפול?**  
+Absolutely. Many people feel anxious before beginning therapy — it’s a new and unfamiliar process. That’s a completely valid feeling, and you're welcome to talk about it in our first session. Taking the first step is often the hardest part.  
+בהחלט. רבים חשים חשש או עצבנות לפני תחילת טיפול – זה תהליך חדש ולא מוכר. זהו רגש לגיטימי לגמרי, ואפשר ורצוי לדבר עליו בפגישה הראשונה. לרוב, הצעד הראשון הוא הקשה מכולם.
+
+---
+
+**What if I don’t know what I want to talk about?**  
+**מה אם אני לא יודע.ת על מה לדבר?**  
+That’s very common, and it’s completely okay. You don’t need to come with a plan — we’ll explore together what’s on your mind, what you’re feeling, or even what’s missing. Therapy can be just as valuable when things feel vague or stuck.  
+זה נפוץ מאוד, וזה לגמרי בסדר. אין צורך להגיע עם תוכנית מסודרת – נבחן יחד מה מעסיק אותך, מה את.ה מרגיש.ה, או אפילו מה חסר. לעיתים קרובות, גם תחושת "תקיעות" או עמימות הן נקודת התחלה משמעותית.
+
+---
+
+**Can therapy help even if I’ve tried it before and it didn’t work?**  
+**האם טיפול יכול לעזור גם אם ניסיתי בעבר וזה לא עבד?**  
+Yes. Every therapeutic relationship is unique, and what didn’t work before might work differently in a new setting. I encourage you to share your past experience — it can help us create a process that better meets your needs.  
+כן. כל קשר טיפולי הוא ייחודי, ומה שלא עבד בעבר יכול להרגיש אחרת בסביבה שונה. אשמח לשמוע על הניסיון הקודם שלך כדי שנוכל לבנות יחד תהליך מדויק ומותאם יותר עבורך.
+
+---
+
+**What should I expect in the first session?**  
+**למה אפשר לצפות במפגש הראשון?**  
+The first session is a chance to get to know each other. We’ll talk about what brings you to therapy, what you’d like help with, and what you’re hoping for. I’ll also ask a few questions to better understand your background.  
+המפגש הראשון הוא הזדמנות להכיר. נדבר על מה מביא אותך לטיפול, על מה היית רוצה לעבוד, ומה את.ה מקווה להפיק מהתהליך. אני גם אשאל כמה שאלות כדי להבין טוב יותר את הרקע והחוויה הנוכחית שלך. הכי חשוב – זהו מפגש שנועד לבדוק האם יש תחושת התאמה בינינו, והאם זהו מקום בטוח ומדויק עבורך.
+
+---
+
+**How long is each session?**  
+**כמה זמן נמשך כל מפגש?**  
+Each session lasts 45 minutes.  
+כל מפגש טיפולי נמשך 45 דקות.
+
+---
+
+**How often are sessions held?**  
+**באיזו תדירות נפגשים?**  
+Usually once a week, at the same day and time. We can adjust frequency based on your needs.  
+במרבית המקרים, הפגישות מתקיימות אחת לשבוע, באותו יום ובאותה שעה. עם זאת, בהתאם לצרכים ולהעדפות שלך, ניתן לעיתים לשנות את התדירות.
+
+---
+
+**How long does therapy last?**  
+**כמה זמן נמשך טיפול?**  
+That varies. Some come for a few months, others for longer. We’ll regularly check in and adapt the process to fit your pace and goals.  
+אורך הטיפול משתנה מאדם לאדם. יש מי שמגיעים למספר חודשים כדי לעבוד על נושא ממוקד, ואחרים בוחרים בתהליך ארוך טווח. לאורך הדרך נבחן יחד את ההתקדמות ונראה כיצד להתאים את הטיפול לקצב ולמטרות שלך.
+
+---
+
+**What types of therapy do you offer?**  
+**אילו סוגי טיפול את מציעה?**  
+I draw from several approaches: CBT, ACT, trauma-informed work, and psychodynamic elements. The method will be tailored to your personal needs.  
+העבודה הטיפולית שלי משלבת גישות שונות, בהן טיפול קוגניטיבי-התנהגותי (CBT), טיפול מבוסס קבלה ומחויבות (ACT), טיפול מוכוון טראומה, ואלמנטים מהגישה הפסיכודינמית. הגישה הטיפולית נבנית בהתאם לצרכים האישיים שלך, ונתאים את התהליך כך שיתאים בדיוק לך.
+
+---
+
+**Do you offer both in-person and online sessions?**  
+**האם את מציעה טיפול פרונטלי וגם אונליין?**  
+Yes. You can choose between in-clinic meetings or secure online video sessions.  
+כן. ניתן לקיים פגישות בקליניקה שלי, או באופן מקוון דרך פלטפורמת וידאו מאובטחת. אפשר לבחור את הדרך שנוחה ונגישה יותר עבורך.
+
+---
+
+**What is the session fee?**  
+**מה עלות כל מפגש?**  
+Session fees are shared during our initial contact. I aim for transparency and respectful communication.  
+שכר הטיפול נמסר במהלך יצירת הקשר הראשוני. אני שמה דגש על תהליך שקוף ומכבד, ואשמח למסור פרטים נוספים בטלפון או במייל.
+
+---
+
+**Do you work with insurance or health funds?**  
+**האם את עובדת עם קופות חולים או ביטוחים פרטיים?**  
+I’m a licensed clinical psychologist and provide receipts that can be submitted for reimbursement where applicable. I’m also registered with the National Insurance Institute for treating individuals affected by acts of terror or war.  
+אני פסיכולוגית קלינית מומחית, ומספקת קבלות להחזר ביטוחי (במקרים בהם הפוליסה מאפשרת זאת). בנוסף, אני רשומה במוסד לביטוח לאומי כפסיכולוגית מורשית לטיפול בנפגעי פעולות איבה או מלחמה.
+
+---
+
+Add a gentle CTA at the bottom:
+
+HE: אם השאלה שלך לא הופיעה כאן – את מוזמנת לפנות ולשאול.
+
+EN: Didn’t see your question here? Feel free to reach out and ask.
+
+Add soft hover or expand effects for answers, without hiding them by default
+

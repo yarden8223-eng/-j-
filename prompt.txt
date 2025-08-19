@@ -1,0 +1,256 @@
+Hello,
+My name is Yarden Gabbay, and I’m a Clinical Psychologist in private practice. I’m looking to create a clean, professional, and inviting website that reflects my therapeutic approach: warm, calm, and trustworthy.
+I’d like the overall tone and quality of the site to be similar to this example (https://www.hadasgabbayashush.com/), which represents the level of professionalism and design I’m aiming for.
+Include placeholders for the following pages and sections:
+Website Structure & Content
+Pages:
+•	Home
+•	About
+•	Areas of Therapy
+•	Digital Courses
+•	Lectures
+•   Publications
+•	FAQ
+•	Contact
+
+
+
+Home Page:
+•	Hero Section: Headline (“choose your mind” / לבחור בנפש) + warm welcome message (Welcome, I’m Yarden Gabbay, a Clinical Psychologist. Here on the website, you can learn about my therapeutic approach, explore areas of specialization, stay updated on lectures and digital courses, and reach out when the time feels right.
+Therapy is a personal process—a safe space for reflection, relief, and reconnecting with yourself. You're invited to take the first step, at your own pace. / ברוכים הבאים, שמי ירדן גבאי, ואני פסיכולוגית קלינית. באתר תוכלו להכיר אותי ואת הגישה שלי לטיפול, לקרוא על תחומי ההתמחות שלי, להתעדכן בהרצאות וקורסים דיגיטליים, וליצור קשר כשיתאים לכם. הטיפול הוא תהליך אישי, שמאפשר מרחב בטוח להתבוננות, הקלה וחיבור מחודש לעצמנו. אני מזמינה אתכם לצעוד בו בקצב שנכון לכם.)
+•	Intro Paragraph: Placeholder for a short paragraph about my therapeutic approach (My name is Yarden Gabbay, and I am a licensed Clinical Psychologist, certified by the Ministry of Health. In my work, I meet individuals of various ages who are seeking support in coping with psychological distress or emotional challenges. While we may not always be able to change the circumstances of our lives or the reality around us, we do have the ability to face and process the challenges that life brings our way. I believe that each person requires a different therapeutic process, and therefore I tailor my approach to the individual.
+I work from an integrative therapeutic perspective, combining methods such as psychodynamic therapy, PE, CBT, and ACT. To me, therapy is a space for both alleviating emotional distress and fostering growth—through connecting with emotions, and taking responsibility and ownership over the choices we make in our lives. / שמי ירדן גבאי, פסיכולוגית קלינית מומחית, בעלת רישיון ממשרד הבריאות.
+בעבודתי כפסיכולוגית, אני פוגשת א/נשים בטווחי גילאים שונים המבקשים לצלוח התמודדות עם קושי או סבל נפשי. אומנם לא תמיד נוכל לשנות את נסיבות חיינו או את המציאות, אך יש לנו האפשרות לבחור להתמודד ולעבד את האתגרים שהחיים מזמנים לנו. אני מאמינה שלכל אדם מתאים תהליך טיפולי שונה, ועל כן מתאימה את הלך עבודתי לאותו אדם. 
+אני עובדת בגישת טיפול אינטגרטיבית המשלבת בין שיטות טיפול שונות כגון טיפול דינאמי, PE, CBT, ACT. טיפול בעיניי הינו מרחב להקלת מצוקה נפשית וצמיחה, תוך עבודה על חיבור לרגשות יחד עם לקיחת אחראיות ומחויבות על הבחירות בחיינו.)
+•	Call to Action: Button (“Contact Me”)
+•	Visual Element: a personal photo or a calming image. @logo.png 
+• Invite them to follow me on Instagram and Facebook. add the logogs of those social media add the links to my pages.
+
+About Page:
+•	Professional Bio: Placeholder (My name is Yarden Gabbay, and I am a licensed Clinical Psychologist. In my work, I meet people of various ages and life stages who are seeking a safe space to cope with emotional difficulties, crisis, or feelings of distress, confusion, and inner unrest. I believe that therapy is not a one-size-fits-all solution, but rather a personal and evolving process. That’s why I adapt my therapeutic approach to the unique needs of each individual.
+ I work from an integrative perspective, drawing from various therapeutic methods—including psychodynamic therapy, Cognitive Behavioral Therapy (CBT), and Acceptance and Commitment Therapy (ACT)—with the goal of creating a space that offers both relief and deeper understanding, while also allowing movement and growth.
+To me, therapy is a place where we can pause, meet ourselves with honesty, connect to emotions that need space, and begin to make conscious choices about how we want to live.
+I hold a master’s degree (with honors) in Clinical Psychology from Reichman University, and have completed a range of professional training programs, including certification in Prolonged Exposure (PE) for trauma survivors, Cognitive Processing Therapy (CPT), a clinical seminar in third-wave CBT, and medical hypnosis training. Over the years, I’ve gained experience in individual therapy, emotional support for women during and after pregnancy, parent guidance, and online therapy. I also served as part of the clinical team providing psychological support during the COVID-19 crisis.
+שמי ירדן גבאי, פסיכולוגית קלינית מומחית, בעלת רישיון ממשרד הבריאות. בעבודתי אני פוגשת א.נשים במגוון גילאים ותחנות חיים, המבקשים לעצמם מרחב להתמודדות עם קושי נפשי, עם משבר, או עם תחושות של מצוקה, בלבול וחוסר שקט. אני מאמינה שטיפול הוא לא פתרון אחיד, אלא תהליך אישי ומשתנה, ולכן אני מתאימה את דרכי העבודה שלי לצרכים הייחודיים של כל אדם. אני עובדת בגישה אינטגרטיבית המשלבת בין שיטות טיפול שונות – טיפול דינאמי, טיפול קוגניטיבי-התנהגותי (CBT), ACT ועוד – מתוך מטרה ליצור מרחב שמאפשר גם הקלה, גם הבנה עמוקה וגם תנועה וצמיחה.
+עבורי, טיפול הוא מקום שבו אפשר לעצור לרגע, לפגוש את עצמנו בכנות, להתחבר לרגשות שמבקשים מקום, ולהתחיל לבחור באופן מודע איך אנחנו רוצים לחיות.
+את דרכי המקצועית התחלתי עם תואר שני (בהצטיינות) בפסיכולוגיה קלינית מאוניברסיטת רייכמן, והמשכתי בהכשרות קליניות מגוונות, בהן הסמכה לטיפול בחשיפה ממושכת (PE) בנפגעי טראומה, קורס עיבוד קוגניטיבי (CPT), סמינר בגישת CBT מהגל השלישי, קורס היפנוזה ועוד. לאורך השנים צברתי ניסיון בטיפול פרטני, בליווי רגשי לנשים בהריון ולאחר לידה, בהדרכת הורים ובטיפול אונליין. בנוסף, לקחתי חלק בצוות המקצועי של מוקד סיוע רגשי שפעל בתקופת הקורונה.)
+•	Photo Placeholder
+•	Credentials & Experience: 
+(Master’s degree (M.A) in Clinical Psychology from Reichman University, graduated with honors.
+Certified in Prolonged Exposure (PE) therapy for PTSD, Cohen-Harris Resilience Center.
+Clinical seminar in third-wave Cognitive Behavioral Therapy (CBT), at the Mental Health Center in Ramat Hen.
+Medical Hypnosis Course, Sheba Medical Center.
+Cognitive Processing Therapy (CPT) Course, Cognetica Institute.  / 
+תואר שני, M.A בפסיכולוגיה קלינית מאוניברסיטת רייכמן, בהצטיינות.
+הסמכה בשיטת טיפול Prolongned Exposure (PE) בנפגעי פוסט טראומה, במרכז חוסן ע"ש כהן האריס.
+סמינר טיפולי בגישת טיפול התנהגותי קוגניטיבית (CBT) גל שלישי, במסגרת המרכז לבריאות הנפש, רמת חן.
+קורס היפנוזה, המרכז הרפואי ע״ש שיבא. 
+קורס עיבוד קוגניטיבי (CPT), בית קוגנטיקה) 
+
+Areas of Therapy:
+•	Anxiety
+•	Trauma
+•	Depression
+•	Grief and Loss
+•	Parenting Guidance
+•	Women's Health
+•	Self-Esteem
+•	Relationships
+
+Digital Courses:
+•	Placeholder for course titles, descriptions, and purchase/sign-up options
+Do not create courses by yourself. For the time being just write "to be continue" / "המשך יבוא..."
+
+Lectures:
+•	Placeholder for lecture topics, audiences, and upcoming events or booking info
+Do not create courses by yourself. For the time being just write "to be continue" / "המשך יבוא..."
+
+Publications:
+Publications page that includes:
+• A list of articles I’ve written or interview for other websites, each with:
+Title
+Brief description (1–2 lines)
+External link (opens in a new tab)
+
+Here are some of the links that I want you to add:
+- https://www.mako.co.il/health-magazine/Article-97bf7860dff0f81026.htm
+- https://healthy.walla.co.il/item/3743951
+- https://healthy.walla.co.il/item/3743964
+- https://www.ynet.co.il/health/article/hkwhouikgl
+- https://www.ynet.co.il/health/article/sywei9gslg
+
+• A section for full-text articles I’d like to host directly on my site.
+These should be displayed with:
+Title
+Short excerpt (preview paragraph)
+“Read More” button that expands or links to the full article (on a separate page or modal)
+add the articles from the כתבות file
+
+Design Notes:
+
+Optional: Add tags (e.g., trauma, grief, parenting) to allow filtering
+Articles should be readable, well-formatted, and mobile-friendly
+If possible, allow the page to expand over time as more content is added
+
+FAQ Page:
+•	Accordion-style layout with placeholder questions and answers
+here are the questions and answers:
+
+What can I expect in the first session?
+The first session is an opportunity for us to get to know each other. We’ll talk about what brings you to therapy, what you’d like help with, and what you hope to gain from the process. I’ll also ask some questions to better understand your background and current experience. Most importantly, this meeting helps us decide together whether this feels like a good fit for you.
+
+How long does each session last?
+Each session lasts 45 minutes.
+
+How often do we meet?
+In most cases, therapy sessions take place once a week, on the same day and time. Depending on your needs and preferences, we can occasionally adjust the frequency.
+
+How long does therapy usually take?
+The length of therapy varies from person to person. Some people come for a few months to work through a specific issue, while others engage in longer-term work. We'll regularly review the process together and adapt it to suit your goals and pace.
+
+What types of therapy do you offer?
+My work draws from several therapeutic approaches, including CBT (Cognitive Behavioral Therapy), ACT (Acceptance and commitment therapy), trauma-informed care, and elements of psychodynamic therapy . The exact approach depends on your unique needs — we’ll tailor the process to fit you.
+
+Do you offer in-person and/or online sessions?
+Yes, I offer both in-person sessions at my clinic and online sessions via a secure video platform. You're welcome to choose what feels most comfortable and accessible for you.
+
+What is the cost per session?
+The session fee will be discussed during our initial contact. I aim to keep the process transparent and respectful, and I'm happy to provide more details by phone or email.
+
+Do you work with health insurance or provide reimbursement receipts?
+I'm a licensed clinical psychologist, and I provide receipts for private insurance reimbursement where applicable. Some supplementary health insurance plans (פוליסות פרטיות) offer partial refunds — I recommend checking directly with your provider.
+In addition, I am listed by the National Insurance Institute (Bituach Leumi) as a psychologist authorized to provide treatment for individuals recognized as victims of hostilities, including terror- or war-related incidents. If this applies to you, I’ll be glad to assist with the necessary process and documentation.
+
+What is your cancellation policy?
+If you need to cancel or reschedule a session, I ask for at least 24 hours' notice. Cancellations made with less than 24 hours’ notice are charged at the full session fee.
+
+Is therapy confidential?
+Yes. Everything discussed in therapy is kept strictly confidential, in accordance with the ethical guidelines of the Ministry of Health and the Israeli Psychological Association. There are rare exceptions related to safety concerns, which I’ll explain in our first meeting.
+
+Where is your office located?
+My clinic is located in Ramat Gan. The exact address will be shared once we schedule a session.
+
+Is the space accessible (e.g., wheelchair accessible)?
+Yes, the clinic is fully wheelchair accessible.
+
+How do I schedule an appointment?
+You can contact me via the Contact page on this site, by email, or by phone. I’ll get back to you as soon as possible to schedule an initial consultation.
+
+Do you offer sessions in other languages? (e.g., English/Hebrew)
+Yes, I offer therapy in both Hebrew and English.
+
+What if I’m not sure therapy is right for me?
+That’s completely okay — many people feel uncertain at first. The initial sessions are a space to explore whether this feels helpful and whether we’re a good match. There’s no pressure or obligation to continue if it doesn’t feel right for you.
+
+Can I contact you between sessions if needed?
+You’re welcome to contact me between sessions for practical matters (like scheduling or cancellations). For emotional support, we’ll try to keep that within the therapy space, but we can explore together what kind of contact feels supportive and appropriate.
+
+Is it normal to feel nervous about starting therapy?
+Absolutely. Many people feel anxious before beginning therapy — it’s a new and unfamiliar process. That’s a completely valid feeling, and you're welcome to talk about it in our first session. Taking the first step is often the hardest part.
+
+What if I don’t know what I want to talk about?
+That’s very common, and it’s completely okay. You don’t need to come with a plan — we’ll explore together what’s on your mind, what you’re feeling, or even what’s missing. Therapy can be just as valuable when things feel vague or stuck.
+
+Can therapy help even if I’ve tried it before and it didn’t work?
+Yes. Every therapeutic relationship is unique, and what didn’t work before might work differently in a new setting. I encourage you to share your past experience — it can help us create a process that better meets your needs.
+
+למה אפשר לצפות במפגש הראשון?
+המפגש הראשון הוא הזדמנות להכיר. נדבר על מה מביא אותך לטיפול, על מה היית רוצה לעבוד, ומה את.ה מקווה להפיק מהתהליך. אני גם אשאל כמה שאלות כדי להבין טוב יותר את הרקע והחוויה הנוכחית שלך. הכי חשוב – זהו מפגש שנועד לבדוק האם יש תחושת התאמה בינינו, והאם זהו מקום בטוח ומדויק עבורך.
+
+כמה זמן נמשך כל מפגש?
+כל מפגש טיפולי נמשך 45 דקות.
+
+באיזו תדירות נפגשים?
+במרבית המקרים, הפגישות מתקיימות אחת לשבוע, באותו יום ובאותה שעה. עם זאת, בהתאם לצרכים ולהעדפות שלך, ניתן לעיתים לשנות את התדירות.
+
+כמה זמן נמשך טיפול?
+אורך הטיפול משתנה מאדם לאדם. יש מי שמגיעים למספר חודשים כדי לעבוד על נושא ממוקד, ואחרים בוחרים בתהליך ארוך טווח. לאורך הדרך נבחן יחד את ההתקדמות ונראה כיצד להתאים את הטיפול לקצב ולמטרות שלך.
+
+אילו סוגי טיפול את מציעה?
+העבודה הטיפולית שלי משלבת גישות שונות, בהן טיפול קוגניטיבי-התנהגותי (CBT), טיפול מבוסס קבלה ומחויבות (ACT), טיפול מוכוון טראומה, ואלמנטים מהגישה הפסיכודינמית. הגישה הטיפולית נבנית בהתאם לצרכים האישיים שלך, ונתאים את התהליך כך שיתאים בדיוק לך.
+
+האם את מציעה טיפול פרונטלי וגם אונליין?
+כן. ניתן לקיים פגישות בקליניקה שלי, או באופן מקוון דרך פלטפורמת וידאו מאובטחת. אפשר לבחור את הדרך שנוחה ונגישה יותר עבורך.
+
+מה עלות כל מפגש?
+שכר הטיפול נמסר במהלך יצירת הקשר הראשוני. אני שמה דגש על תהליך שקוף ומכבד, ואשמח למסור פרטים נוספים בטלפון או במייל.
+
+האם את עובדת עם קופות חולים או ביטוחים פרטיים?
+אני פסיכולוגית קלינית מומחית, ומספקת קבלות להחזר ביטוחי (במקרים בהם הפוליסה מאפשרת זאת). חלק מהביטוחים המשלימים מציעים החזר חלקי – מומלץ לבדוק ישירות מול ספק הביטוח שלך.
+
+בנוסף, אני רשומה במוסד לביטוח לאומי כפסיכולוגית מורשית לטיפול בנפגעי פעולות איבה או מלחמה. אם את.ה מוכר.ת כנפגע.ת איבה, אוכל לסייע בתהליך ובהגשת המסמכים הנדרשים.
+
+מהי מדיניות הביטולים?
+במקרה של ביטול או דחיית פגישה, אני מבקשת ליידע לפחות 24 שעות מראש. ביטול בטווח קצר יותר מחויב בתשלום מלא עבור הפגישה.
+
+האם הטיפול נשמר חסוי?
+כן. כל מה שנאמר במסגרת הטיפול נשמר בסודיות מלאה, בהתאם לכללי האתיקה של משרד הבריאות והסתדרות הפסיכולוגים. ישנם חריגים נדירים שקשורים לבטיחות, עליהם אסביר בפגישה הראשונה.
+
+היכן נמצאת הקליניקה שלך?
+הקליניקה ממוקמת ברמת גן. הכתובת המדויקת תימסר לאחר קביעת מועד לפגישה.
+
+האם הקליניקה נגישה?
+כן, הקליניקה מונגשת באופן מלא לכיסאות גלגלים.
+
+איך קובעים פגישה?
+אפשר ליצור קשר דרך עמוד יצירת הקשר באתר, במייל או בטלפון. אחזור אליך בהקדם האפשרי לתיאום פגישת היכרות.
+
+האם את מציעה טיפול גם בשפות אחרות?
+כן. אני מטפלת בעברית ובאנגלית.
+
+מה אם אני לא בטוח.ה שטיפול מתאים לי?
+זה בסדר גמור – הרבה אנשים חשים חוסר ודאות בתחילת הדרך. הפגישות הראשונות הן מקום לבחון אם התהליך מתאים לך ואם יש תחושת חיבור. אין לחץ או התחייבות להמשיך אם זה לא מרגיש נכון עבורך.
+
+האם אפשר ליצור איתך קשר בין הפגישות?
+אפשר ליצור קשר בין פגישות לצרכים פרקטיים, כמו שינוי או ביטול תור. את התמיכה הרגשית נשתדל לשמור למרחב הטיפולי, אבל נשוחח יחד מהי מידת הקשר שתהיה תומכת ומתאימה.
+
+האם זה נורמלי להרגיש לחוץ לפני התחלת טיפול?
+בהחלט. רבים חשים חשש או עצבנות לפני תחילת טיפול – זה תהליך חדש ולא מוכר. זהו רגש לגיטימי לגמרי, ואפשר ורצוי לדבר עליו בפגישה הראשונה. לרוב, הצעד הראשון הוא הקשה מכולם.
+
+מה אם אני לא יודע.ת על מה לדבר?
+זה נפוץ מאוד, וזה לגמרי בסדר. אין צורך להגיע עם תוכנית מסודרת – נבחן יחד מה מעסיק אותך, מה את.ה מרגיש.ה, או אפילו מה חסר. לעיתים קרובות, גם תחושת "תקיעות" או עמימות הן נקודת התחלה משמעותית.
+
+האם טיפול יכול לעזור גם אם ניסיתי בעבר וזה לא עבד?
+כן. כל קשר טיפולי הוא ייחודי, ומה שלא עבד בעבר יכול להרגיש אחרת בסביבה שונה. אשמח לשמוע על הניסיון הקודם שלך כדי שנוכל לבנות יחד תהליך מדויק ומותאם יותר עבורך.
+
+Contact Page:
+•	Contact Form
+o	Name: Yarden Gabbay
+o	Email: yarden8223@gmail.com
+•	Phone: 052-4543553
+•	Instagram: @yarden.g.psychologist
+•	Facebook: Yarden Gabbay Psychologist
+
+Additional Features
+•	Bilingual Website
+Users can switch between English and Hebrew at any time using a language toggle in the header.
+The default language need to be Hebrew.
+In Hebrew the Top navigation bar with all page links need to be right to left. For example the rightest need to be בית and then all the rest. 
+•	Newsletter Subscription
+ include the following bilingual disclaimer at the bottom of every page (in small, discreet font)
+    The website is written in the feminine form but addresses all genders equally and respectfully.
+    האתר נכתב בלשון נקבה אך פונה לכל המגדרים באופן שוויוני ומכבד.
+Include an option for visitors to subscribe for updates, new content, or course announcements.
+o	Location: footer and homepage
+o	Fields: name, email
+o	Optional: checkbox for course/news/lecture preferences
+
+Design Notes:
+•	Color Palette:
+#bf977d, #a06a4d, #9f5e36, #eeedeb, #cfc0b7, #c7aea2, #b4a59d, #d9cac5, #b97c44, #ccc7c4
+• For the background use color #eeedeb.
+• For the footer use color #a06a4d and make it reletive nerow
+
+• Clean, modern, and soothing design
+• use @feather pen.jpg , @leaves.jpg, @pine cone.jpg as icons in the site to add more decoration. 
+• Mobile responsive
+• Top navigation bar with all page links
+• Footer with contact details and social media links
+• I want the section to include subtle, elegant animations that bring the page to life — for example, text fade-ins, smooth scrolling effects, elements sliding in as you scroll, or hover animations on buttons or links. The animations should support a calm and professional tone, not be overwhelming.
+• Keep it minimal and soothing: Prioritize clarity, whitespace, and simple navigation. Avoid information overload—each section should be concise, with the option to read more if desired.
+• Focused content per page: Every page should include only the essential information, presented in a way that’s easy to scan (e.g., short paragraphs, bullet points, headings).
+• Use expandable sections (like accordions) for longer content such as FAQs or course details, so visitors can open only what they’re interested in.
+• Visual balance: Combine text with calming visuals—use imagery to break up sections and support the content emotionally, not distract from it.
+
+
+

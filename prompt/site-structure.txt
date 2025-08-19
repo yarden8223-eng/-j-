@@ -1,0 +1,82 @@
+Hello,
+My name is Yarden Gabbay, and I’m a licensed Clinical Psychologist in private practice. I’m building a bilingual (Hebrew-English) professional website that reflects the core values of my work: warmth, calm, clarity, trust, and professionalism.
+
+I want the website to be:
+
+Clean and minimalistic
+
+Visually calming (whitespace, soft animations, warm palette)
+
+Fully responsive on mobile and desktop
+
+Accessible and user-friendly
+
+Designed with subtle, elegant animations (text fade-ins, sliding elements, hover effects — gentle, not flashy)
+
+Use the structure and content below to create separate, well-organized sections, with the ability to edit and update content over time.
+
+
+Pages (create each as a separate file/component):
+Home
+
+About
+
+Areas of Therapy
+
+Digital Courses
+
+Lectures
+
+Publications & Articles
+
+FAQ
+
+Contact
+
+Navigation:
+Language toggle: Hebrew (default) ↔ English
+
+In Hebrew, layout must be Right to Left, with בית as the rightmost item
+
+Top navigation bar on all pages with the picture logog with name.png
+
+Footer with contact details, newsletter, rights reserved and disclaimer
+
+Disclaimer (to appear in footer, in small font):
+English: The website is written in the feminine form but addresses all genders equally and respectfully.
+Hebrew: האתר נכתב בלשון נקבה אך פונה לכל המגדרים באופן שוויוני ומכבד.
+
+## 🌍 Bilingual & Language Toggle Requirements
+
+- **Default Language**: Hebrew (`lang="he"`) with `dir="rtl"` applied to the `<html>` element on all pages by default.
+- **Secondary Language**: English (`lang="en"`) with `dir="ltr"`.
+- **Language Toggle**:
+  - A persistent toggle in the header on **every page** that allows switching between Hebrew and English versions.
+  - Toggle must be accessible via keyboard (`Tab` navigation) and screen reader-friendly (`aria-label="Change language to English"` / `"Change language to Hebrew"` depending on current language).
+  - The current language should be visually indicated (highlight, underline, or icon).
+- **Consistent Layout Direction**:
+  - When Hebrew is active: all text, navigation, and layout flow should be RTL.
+  - When English is active: all text, navigation, and layout flow should be LTR.
+- **Text Content**:
+  - Both Hebrew and English content for each page should be stored and linked so that toggling preserves the current page (e.g., Hebrew About → English About, not defaulting back to Home).
+  - All pages must load the correct language version based on the toggle state.
+- **HTML Markup**:
+  - Hebrew page root:  
+    ```html
+    <html lang="he" dir="rtl">
+    ```
+  - English page root:  
+    ```html
+    <html lang="en" dir="ltr">
+    ```
+- **Mixed Language Segments**:
+  - If a section or phrase uses the other language (e.g., English phrase in a Hebrew page), wrap it in a `span` with the correct `lang` attribute:  
+    ```html
+    <span lang="en">choose your mind</span>
+    ```
+- **Navigation Bar**:
+  - Hebrew default order: RTL with "בית" as the rightmost link.
+  - English order: LTR with "Home" as the leftmost link.
+- **Testing**:
+  - Verify the toggle updates both `lang` and `dir` attributes on every page.
+  - Ensure CSS respects `[dir="rtl"]` and `[dir="ltr"]` for layout adjustments.

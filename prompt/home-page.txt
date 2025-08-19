@@ -1,0 +1,49 @@
+Create a homepage with the following:
+
+Hero Section:
+Headline:
+choose your mind / לבחור בנפש
+
+Logo:
+use Logo.PNG. 
+
+Welcome Message (bilingual):
+
+Welcome, I’m Yarden Gabbay, a Clinical Psychologist. Here on the website, you can learn about my therapeutic approach, explore areas of specialization, stay updated on lectures and digital courses, and reach out when the time feels right.
+Therapy is a personal process—a safe space for reflection, relief, and reconnecting with yourself. You're invited to take the first step, at your own pace.
+
+ברוכים הבאים, שמי ירדן גבאי, ואני פסיכולוגית קלינית. באתר תוכלו להכיר אותי ואת הגישה שלי לטיפול, לקרוא על תחומי ההתמחות שלי, להתעדכן בהרצאות וקורסים דיגיטליים, וליצור קשר כשיתאים לכם.
+הטיפול הוא תהליך אישי, שמאפשר מרחב בטוח להתבוננות, הקלה וחיבור מחודש לעצמנו. אני מזמינה אתכם לצעוד בו בקצב שנכון לכם.
+
+Intro Paragraph:
+Add a brief description of my therapeutic approach — summarized, with a "Read more" button linking to the About page.
+
+In my clinic, I work with individuals of various ages who are dealing with a range of psychological difficulties — including anxiety, trauma, depression, grief and loss, low self-esteem, complex relationships, and more.
+I believe that each person needs a therapeutic space tailored to them, and therefore I draw from a variety of approaches — including cognitive-behavioral therapy (CBT), acceptance and commitment therapy (ACT), and at times, psychodynamic work.
+To me, the core of therapy lies in meeting the difficulty with compassion, while fostering emotional connection, choice, and personal responsibility.
+
+בקליניקה שלי אני פוגשת אנשים ונשים בגילאים שונים, המתמודדות עם מגוון קשיים נפשיים – מצבי חרדה, טראומה, דיכאון, אובדן ואבל, דימוי עצמי נמוך, יחסים מורכבים ועוד.
+אני מאמינה שכל אחת ואחד זקוקים למרחב טיפולי שמותאם להם, ולכן אני משלבת בין גישות שונות – טיפול קוגניטיבי התנהגותי (CBT), טיפול מבוסס קבלה ומחויבות (ACT), ולעיתים גם עבודה פסיכודינמית. המפגש עם הקושי, לצד פיתוח של חיבור רגשי, בחירה ולקיחת אחריות – הם בעיניי לבו של הטיפול.
+
+Call to Action:
+Button: “Contact Me”
+
+Instagram & Facebook & whatsapp icons with links:
+
+IG: @yarden.g.psychologist
+
+FB: https://www.facebook.com/yarden.g.psychologist
+
+whatsapp: wa.me/972524543553
+
+Visual:
+One personal photo
+
+One decorative calming image
+
+Use images: @feather pen.jpg, @leaves.jpg, @pine cone.jpg
+
+Newsletter Signup:
+Fields: Name, Email
+
+Also appears in footer
