@@ -176,8 +176,101 @@
             transform: translateX(0);
         }
 
+        /* FAQ Images and Layout Styles */
+        .faq-layout {
+            display: grid;
+            grid-template-columns: 1fr 350px;
+            gap: 3rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .faq-content {
+            min-height: 100vh;
+        }
+
+        .faq-images-sidebar {
+            position: sticky;
+            top: 2rem;
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .faq-image {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+
+        .faq-image:nth-child(1) {
+            animation-delay: 0.2s;
+        }
+
+        .faq-image:nth-child(2) {
+            animation-delay: 0.4s;
+        }
+
+        .faq-image:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .faq-image-container {
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+        }
+
+        .faq-image-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%);
+            z-index: 1;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .faq-image-container:hover::before {
+            opacity: 1;
+        }
+
         /* Responsive design */
         @media (max-width: 768px) {
+            .faq-layout {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .faq-images-sidebar {
+                position: static;
+                order: -1;
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            .faq-image {
+                max-width: 200px;
+            }
+
             .faq-hero {
                 padding: 100px 0 2rem;
             }
@@ -300,7 +393,11 @@
         <div class="container">
             <div class="faq-container">
 
-                <ul class="faq-list" id="faq-list">
+
+
+                <div class="faq-layout">
+                    <div class="faq-content">
+                        <ul class="faq-list" id="faq-list">
                     <li class="faq-item" data-id="q1">
                         <button class="q-btn" type="button" aria-expanded="false" aria-controls="wrap-q1" data-en="What is your cancellation policy?" data-he="מהי מדיניות הביטולים?">מהי מדיניות הביטולים?</button>
                         <div id="wrap-q1" class="answer-wrap" aria-hidden="true">
@@ -434,6 +531,18 @@
                         </div>
                     </li>
                 </ul>
+                    </div>
+                    
+                    <!-- Images Sidebar -->
+                    <div class="faq-images-sidebar">
+                        <div class="faq-image-container">
+                            <img src="assets/images/desk-ipad.jpg" alt="Desk with iPad" class="faq-image">
+                        </div>
+                        <div class="faq-image-container">
+                            <img src="assets/images/coffee.jpg" alt="Coffee cup" class="faq-image">
+                        </div>
+                    </div>
+                </div>
 
                 <!-- Call to Action -->
                 <div class="faq-cta">
