@@ -25,17 +25,17 @@ EN: "Didn’t see your question here? Feel free to reach out and ask."
 
 ---
 
-**What is your cancellation policy?**  
-**מהי מדיניות הביטולים?**  
-If you need to cancel or reschedule a session, I ask for at least 24 hours' notice. Cancellations made with less than 24 hours’ notice are charged at the full session fee.  
-במקרה של ביטול או דחיית פגישה, אני מבקשת ליידע לפחות 24 שעות מראש. ביטול בטווח קצר יותר מחויב בתשלום מלא עבור הפגישה.
+**How do I schedule an appointment?**  
+**איך קובעים פגישה?**  
+You can contact me via the Contact page on this site, by email, or by phone. I’ll get back to you as soon as possible to schedule an initial consultation.  
+אפשר ליצור קשר דרך עמוד יצירת הקשר באתר, במייל או בטלפון. אחזור אליך בהקדם האפשרי לתיאום פגישת היכרות.
 
 ---
 
-**Is therapy confidential?**  
-**האם הטיפול נשמר חסוי?**  
-Yes. Everything discussed in therapy is kept strictly confidential, in accordance with the ethical guidelines of the Ministry of Health and the Israeli Psychological Association. There are rare exceptions related to safety concerns, which I’ll explain in our first meeting.  
-כן. כל מה שנאמר במסגרת הטיפול נשמר בסודיות מלאה, בהתאם לכללי האתיקה של משרד הבריאות והסתדרות הפסיכולוגים. ישנם חריגים נדירים שקשורים לבטיחות, עליהם אסביר בפגישה הראשונה.
+**How long is each session?**  
+**כמה זמן נמשך כל מפגש?**  
+Each session lasts 45 minutes.  
+כל מפגש טיפולי נמשך 45 דקות.
 
 ---
 
@@ -46,6 +46,48 @@ My clinic is located in Ramat Gan. The exact address will be shared once we sche
 
 ---
 
+**How often are sessions held?**  
+**באיזו תדירות נפגשים?**  
+Usually once a week, at the same day and time. We can adjust frequency based on your needs.  
+במרבית המקרים, הפגישות מתקיימות אחת לשבוע, באותו יום ובאותה שעה. עם זאת, בהתאם לצרכים ולהעדפות שלך, ניתן לעיתים לשנות את התדירות.
+
+---
+
+**How long does therapy last?**  
+**כמה זמן נמשך טיפול?**  
+That varies. Some come for a few months, others for longer. We’ll regularly check in and adapt the process to fit your pace and goals.  
+אורך הטיפול משתנה מאדם לאדם. יש מי שמגיעים למספר חודשים כדי לעבוד על נושא ממוקד, ואחרים בוחרים בתהליך ארוך טווח. לאורך הדרך נבחן יחד את ההתקדמות ונראה כיצד להתאים את הטיפול לקצב ולמטרות שלך.
+
+---
+
+**What types of therapy do you offer?**  
+**אילו סוגי טיפול את מציעה?**  
+I draw from several approaches: CBT, ACT, trauma-informed work, and psychodynamic elements. The method will be tailored to your personal needs.  
+העבודה הטיפולית שלי משלבת גישות שונות, בהן טיפול קוגניטיבי-התנהגותי (CBT), טיפול מבוסס קבלה ומחויבות (ACT), טיפול מוכוון טראומה, ואלמנטים מהגישה הפסיכודינמית. הגישה הטיפולית נבנית בהתאם לצרכים האישיים שלך, ונתאים את התהליך כך שיתאים בדיוק לך.
+
+---
+
+**Do you offer both in-person and online sessions?**  
+**האם את מציעה טיפול פרונטלי וגם אונליין?**  
+Yes. You can choose between in-clinic meetings or secure online video sessions.  
+כן. ניתן לקיים פגישות בקליניקה שלי, או באופן מקוון דרך פלטפורמת וידאו מאובטחת. אפשר לבחור את הדרך שנוחה ונגישה יותר עבורך.
+
+---
+
+**What is the session fee?**  
+**מה עלות כל מפגש?**  
+Session fees are shared during our initial contact. I aim for transparency and respectful communication.  
+שכר הטיפול נמסר במהלך יצירת הקשר הראשוני. אני שמה דגש על תהליך שקוף ומכבד, ואשמח למסור פרטים נוספים בטלפון או במייל.
+
+---
+
+**Do you work with insurance or health funds?**  
+**האם את עובדת עם קופות חולים או ביטוחים פרטיים?**  
+I’m a licensed clinical psychologist and provide receipts that can be submitted for reimbursement where applicable. I’m also registered with the National Insurance Institute for treating individuals affected by acts of terror or war.  
+אני פסיכולוגית קלינית מומחית, ומספקת קבלות להחזר ביטוחי (במקרים בהם הפוליסה מאפשרת זאת). בנוסף, אני רשומה במוסד לביטוח לאומי כפסיכולוגית מורשית לטיפול בנפגעי פעולות איבה או מלחמה.
+
+---
+
 **Is the space accessible (e.g., wheelchair accessible)?**  
 **האם הקליניקה נגישה?**  
 Yes, the clinic is fully wheelchair accessible.  
@@ -53,10 +95,10 @@ Yes, the clinic is fully wheelchair accessible.
 
 ---
 
-**How do I schedule an appointment?**  
-**איך קובעים פגישה?**  
-You can contact me via the Contact page on this site, by email, or by phone. I’ll get back to you as soon as possible to schedule an initial consultation.  
-אפשר ליצור קשר דרך עמוד יצירת הקשר באתר, במייל או בטלפון. אחזור אליך בהקדם האפשרי לתיאום פגישת היכרות.
+**What is your cancellation policy?**  
+**מהי מדיניות הביטולים?**  
+If you need to cancel or reschedule a session, I ask for at least 24 hours' notice. Cancellations made with less than 24 hours’ notice are charged at the full session fee.  
+במקרה של ביטול או דחיית פגישה, אני מבקשת ליידע לפחות 24 שעות מראש. ביטול בטווח קצר יותר מחויב בתשלום מלא עבור הפגישה.
 
 ---
 
@@ -109,52 +151,11 @@ The first session is a chance to get to know each other. We’ll talk about what
 
 ---
 
-**How long is each session?**  
-**כמה זמן נמשך כל מפגש?**  
-Each session lasts 45 minutes.  
-כל מפגש טיפולי נמשך 45 דקות.
+**Is therapy confidential?**  
+**האם הטיפול נשמר חסוי?**  
+Yes. Everything discussed in therapy is kept strictly confidential, in accordance with the ethical guidelines of the Ministry of Health and the Israeli Psychological Association. There are rare exceptions related to safety concerns, which I’ll explain in our first meeting.  
+כן. כל מה שנאמר במסגרת הטיפול נשמר בסודיות מלאה, בהתאם לכללי האתיקה של משרד הבריאות והסתדרות הפסיכולוגים. ישנם חריגים נדירים שקשורים לבטיחות, עליהם אסביר בפגישה הראשונה.
 
 ---
 
-**How often are sessions held?**  
-**באיזו תדירות נפגשים?**  
-Usually once a week, at the same day and time. We can adjust frequency based on your needs.  
-במרבית המקרים, הפגישות מתקיימות אחת לשבוע, באותו יום ובאותה שעה. עם זאת, בהתאם לצרכים ולהעדפות שלך, ניתן לעיתים לשנות את התדירות.
-
----
-
-**How long does therapy last?**  
-**כמה זמן נמשך טיפול?**  
-That varies. Some come for a few months, others for longer. We’ll regularly check in and adapt the process to fit your pace and goals.  
-אורך הטיפול משתנה מאדם לאדם. יש מי שמגיעים למספר חודשים כדי לעבוד על נושא ממוקד, ואחרים בוחרים בתהליך ארוך טווח. לאורך הדרך נבחן יחד את ההתקדמות ונראה כיצד להתאים את הטיפול לקצב ולמטרות שלך.
-
----
-
-**What types of therapy do you offer?**  
-**אילו סוגי טיפול את מציעה?**  
-I draw from several approaches: CBT, ACT, trauma-informed work, and psychodynamic elements. The method will be tailored to your personal needs.  
-העבודה הטיפולית שלי משלבת גישות שונות, בהן טיפול קוגניטיבי-התנהגותי (CBT), טיפול מבוסס קבלה ומחויבות (ACT), טיפול מוכוון טראומה, ואלמנטים מהגישה הפסיכודינמית. הגישה הטיפולית נבנית בהתאם לצרכים האישיים שלך, ונתאים את התהליך כך שיתאים בדיוק לך.
-
----
-
-**Do you offer both in-person and online sessions?**  
-**האם את מציעה טיפול פרונטלי וגם אונליין?**  
-Yes. You can choose between in-clinic meetings or secure online video sessions.  
-כן. ניתן לקיים פגישות בקליניקה שלי, או באופן מקוון דרך פלטפורמת וידאו מאובטחת. אפשר לבחור את הדרך שנוחה ונגישה יותר עבורך.
-
----
-
-**What is the session fee?**  
-**מה עלות כל מפגש?**  
-Session fees are shared during our initial contact. I aim for transparency and respectful communication.  
-שכר הטיפול נמסר במהלך יצירת הקשר הראשוני. אני שמה דגש על תהליך שקוף ומכבד, ואשמח למסור פרטים נוספים בטלפון או במייל.
-
----
-
-**Do you work with insurance or health funds?**  
-**האם את עובדת עם קופות חולים או ביטוחים פרטיים?**  
-I’m a licensed clinical psychologist and provide receipts that can be submitted for reimbursement where applicable. I’m also registered with the National Insurance Institute for treating individuals affected by acts of terror or war.  
-אני פסיכולוגית קלינית מומחית, ומספקת קבלות להחזר ביטוחי (במקרים בהם הפוליסה מאפשרת זאת). בנוסף, אני רשומה במוסד לביטוח לאומי כפסיכולוגית מורשית לטיפול בנפגעי פעולות איבה או מלחמה.
-
----
 add this pictures in this page  (`COFFEE.jpg`, `desk ipad.jpg`)
