@@ -106,6 +106,58 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(el);
     });
     
+    // Enhanced image animations with Intersection Observer
+    const imageObserver = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const img = entry.target;
+                const figure = img.closest('figure');
+                
+                if (figure) {
+                    figure.style.opacity = '1';
+                    figure.style.transform = 'translateY(0)';
+                    
+                    // Add staggered delay for multiple images
+                    const figures = figure.parentElement.querySelectorAll('figure');
+                    const index = Array.from(figures).indexOf(figure);
+                    figure.style.animationDelay = `${index * 0.1}s`;
+                }
+                
+                // Add loading animation for images
+                img.style.opacity = '0';
+                img.style.transform = 'scale(0.9)';
+                
+                setTimeout(() => {
+                    img.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                    img.style.opacity = '1';
+                    img.style.transform = 'scale(1)';
+                }, 200);
+            }
+        });
+    }, {
+        threshold: 0.2,
+        rootMargin: '0px 0px -100px 0px'
+    });
+    
+    // Observe all images for enhanced animations
+    const allImages = document.querySelectorAll('img:not(.logo-image)');
+    allImages.forEach(img => {
+        imageObserver.observe(img);
+    });
+    
+    // Special handling for logo animation
+    const logoImage = document.querySelector('.logo-image');
+    if (logoImage) {
+        logoImage.style.opacity = '0';
+        logoImage.style.transform = 'translateY(-20px)';
+        
+        setTimeout(() => {
+            logoImage.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+            logoImage.style.opacity = '1';
+            logoImage.style.transform = 'translateY(0)';
+        }, 500);
+    }
+    
     // Newsletter form handling
     const newsletterForms = document.querySelectorAll('.newsletter-form, .footer-newsletter');
     newsletterForms.forEach(form => {
