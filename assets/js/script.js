@@ -288,7 +288,6 @@ const languageContent = {
             contactSuccess: 'תודה על הפנייה! אחזור אליך בהקדם.',
             readMore: 'קרא עוד',
             backToPublications: 'חזרה לפרסומים',
-            disclaimer: 'האתר נכתב בלשון נקבה אך פונה לכל המגדרים באופן שוויוני ומכבד.'
         }
     },
     en: {
@@ -313,7 +312,6 @@ const languageContent = {
             contactSuccess: 'Thank you for your message! I\'ll get back to you soon.',
             readMore: 'Read More',
             backToPublications: 'Back to Publications',
-            disclaimer: 'The website is written in the feminine form but addresses all genders equally and respectfully.'
         }
     }
 };

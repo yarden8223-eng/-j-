@@ -43,8 +43,6 @@ Top navigation bar on all pages with the picture @logo.png
 Footer with contact details, newsletter, rights reserved and disclaimer
 
 Disclaimer (to appear in footer, in small font):
-English: The website is written in the feminine form but addresses all genders equally and respectfully.
-Hebrew: האתר נכתב בלשון נקבה אך פונה לכל המגדרים באופן שוויוני ומכבד.
 
 ## 🌍 Bilingual & Language Toggle Requirements
 

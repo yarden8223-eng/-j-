@@ -170,5 +170,3 @@ This website is created for Yarden Gabbay's professional use. All rights reserve
 
 ---
 
-*The website is written in the feminine form but addresses all genders equally and respectfully.*
-*האתר נכתב בלשון נקבה אך פונה לכל המגדרים באופן שוויוני ומכבד.* 
