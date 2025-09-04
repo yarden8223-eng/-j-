@@ -2618,7 +2618,7 @@ p {
 } 
 
 /* Terms and Conditions Page Styles */
-.page-header {
+.terms-page .page-header {
     background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
     color: white;
     padding: 120px 0 4rem;
@@ -2627,7 +2627,7 @@ p {
     overflow: hidden;
 }
 
-.page-header::before {
+.terms-page .page-header::before {
     content: '';
     position: absolute;
     top: 0;
@@ -2639,7 +2639,7 @@ p {
     z-index: 1;
 }
 
-.page-header .container {
+.terms-page .page-header .container {
     position: relative;
     z-index: 2;
 }
@@ -2756,7 +2756,7 @@ p {
 
 /* Responsive design for Terms page */
 @media (max-width: 768px) {
-    .page-header {
+    .terms-page .page-header {
         padding: 100px 0 3rem;
     }
     
@@ -2792,7 +2792,7 @@ p {
 }
 
 @media (max-width: 480px) {
-    .page-header {
+    .terms-page .page-header {
         padding: 80px 0 2rem;
     }
     
