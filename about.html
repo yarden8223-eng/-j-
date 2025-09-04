@@ -7,6 +7,64 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&family=Lora:ital,wght@0,400;0,600;1,400&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script>
+        window.args = {
+            sitekey   : '11dd73d4c0ea2bedcdd41e8923ac0d0f',
+            position  : 'Left',
+            container : '',
+            icon : '',
+            access : 'https://vee-crm.com',
+            styles : {
+                primary_color: '#b99134',
+                secondary_color: '#fcecc8',
+                background_color: '#f6f6f6',
+                primary_text_color: '#636363',
+                headers_text_color: '#efc7a7',
+                primary_font_size: 14,
+                slider_left_color:  '#ce9162',
+                slider_right_color:  '#170a01',
+                icon_vertical_position: 'top',
+                icon_offset_top: 100,
+                icon_offset_bottom: 0,
+                highlight_focus_color: '#e3c47b',
+                toggler_icon_color: '#ffffff',
+            },
+            links : {
+                acc_policy: '',
+                additional_link: 'https://vee.co.il/pricing/'
+            },
+            options : {
+                open: false,
+                aaa: false,
+                hide_tablet: false,
+                hide_mobile: false,
+                button_size_tablet: 44,
+                button_size_mobile: 34,
+                position_tablet: 'Right',
+                position_mobile: 'Right',
+                icon_vertical_position_tablet: 'top',
+                icon_vertical_position_mobile: 'top',
+                icon_offset_top_tablet: 100,
+                icon_offset_bottom_tablet: 0,
+                icon_offset_top_mobile: 100,
+                icon_offset_bottom_mobile: 0,
+                keyboard_shortcut: true,
+                hide_purchase_link: false,
+                display_checkmark_icon: false,
+                active_toggler_color: '#118f38'
+            },
+            exclude : []
+        };
+        
+        (function(doc, head, body){
+            var embed = doc.createElement('script');
+            embed.src = window.args['access'] + '/js/';
+            embed.defer = true;
+            embed.crossOrigin = 'anonymous';
+            embed.setAttribute('data-cfasync', true );
+            body? body.appendChild(embed) : head.appendChild(embed);
+        })(document, document.head, document.body);
+        </script>
 </head>
 <body>
     <!-- Navigation -->
@@ -73,7 +131,7 @@
                         <h2 data-en="Certifications and Training" data-he="הכשרות והסמכות">הכשרות והסמכות</h2>
                         <ul class="credentials-list">
                             <li data-en="Master's degree, M.A in Clinical Psychology from Reichman University, with honors" data-he="תואר שני, M.A בפסיכולוגיה קלינית מאוניברסיטת רייכמן, בהצטיינות">תואר שני, M.A בפסיכולוגיה קלינית מאוניברסיטת רייכמן, בהצטיינות</li>
-                            <li data-en="Certification in Prolonged Exposure (PE) therapy for PTSD, Cohen-Harris Resilience Center" data-he="הסמכה בשיטת טיפול Prolongned Exposure (PE) בנפגעי פוסט טראומה, במרכז חוסן ע'ש כהן האריס">הסמכה בשיטת טיפול Prolongned Exposure (PE) בנפגעי פוסט טראומה, במרכז חוסן ע"ש כהן האריס</li>
+                            <li data-en="Certification in Prolonged Exposure (PE) therapy for PTSD, Cohen-Harris Resilience Center" data-he="הסמכה בשיטת טיפול Prolongned Exposure (PE) בנפגעי פוסט טראומה, במרכז חוסן עֿעעעש כהן האריס">הסמכה בשיטת טיפול Prolongned Exposure (PE) בנפגעי פוסט טראומה, במרכז חוסן ע"ש כהן האריס</li>
                             <li data-en="Clinical seminar in third-wave Cognitive Behavioral Therapy (CBT), at the Mental Health Center in Ramat Hen" data-he="סמינר טיפולי בגישת טיפול התנהגותי קוגניטיבית (CBT) גל שלישי, במסגרת המרכז לבריאות הנפש, רמת חן">סמינר טיפולי בגישת טיפול התנהגותי קוגניטיבית (CBT) גל שלישי, במסגרת המרכז לבריאות הנפש, רמת חן</li>
                             <li data-en="Medical Hypnosis Course, Sheba Medical Center" data-he="קורס היפנוזה, המרכז הרפואי ע״ש שיבא">קורס היפנוזה, המרכז הרפואי ע״ש שיבא</li>
                             <li data-en="Cognitive Processing Therapy (CPT) Course, Cognetica Institute" data-he="קורס עיבוד קוגניטיבי (CPT), בית קוגנטיקה">קורס עיבוד קוגניטיבי (CPT), בית קוגנטיקה</li>
@@ -138,7 +196,13 @@
                         </a>
                     </div>
                 </div>
-
+                <div class="footer-section">
+                    <h4 data-en="Newsletter" data-he="ניוזלטר">ניוזלטר</h4>
+                    <form class="footer-newsletter">
+                        <input type="email" placeholder="אימייל" data-en-placeholder="Email" data-he-placeholder="אימייל" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
             </div>
             <div class="footer-disclaimer">
                 <p><a href="terms.html" class="footer-link" data-en="Terms and Conditions" data-he="תקנון אתר">תקנון אתר</a></p>
