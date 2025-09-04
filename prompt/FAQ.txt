@@ -19,7 +19,7 @@ EN: "Questions that quietly come up — and deserve space to be heard"
 
 At the bottom, include a gentle call to action:
 
-HE: "אם השאלה שלך לא הופיעה כאן – את מוזמנת לפנות ולשאול"
+HE: "אם השאלה שלכם לא הופיעה כאן – אתם מוזמנים לפנות ולשאול"
 
 EN: "Didn’t see your question here? Feel free to reach out and ask."
 
