@@ -38,6 +38,9 @@ document.addEventListener('DOMContentLoaded', function() {
             // Store preference
             localStorage.setItem('preferred-language', lang);
             
+            // Update content immediately
+            updateContent(lang);
+            
             // Trigger language change event
             window.dispatchEvent(new CustomEvent('languageChange', { detail: { lang } }));
         });
@@ -107,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // Enhanced image animations with Intersection Observer
-    const imageObserver = new IntersectionObserver(function(entries) {
+    const enhancedImageObserver = new IntersectionObserver(function(entries) {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 const img = entry.target;
@@ -142,7 +145,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Observe all images for enhanced animations
     const allImages = document.querySelectorAll('img:not(.logo-image)');
     allImages.forEach(img => {
-        imageObserver.observe(img);
+        enhancedImageObserver.observe(img);
     });
     
     // Special handling for logo animation
