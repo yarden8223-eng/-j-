@@ -41,7 +41,7 @@ One personal photo (`habait.jpg`)
 
 Use images as icons or decorative: @feather pen.jpg, @leaves.jpg, @pine cone.jpg
 
-Newsletter Signup:
+
 Fields: Name, Email
 
 Also appears in footer

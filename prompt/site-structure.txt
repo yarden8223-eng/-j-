@@ -40,7 +40,7 @@ In Hebrew, layout must be Right to Left, with בית as the rightmost item
 
 Top navigation bar on all pages with the picture @logo.png
 
-Footer with contact details, newsletter, rights reserved and disclaimer
+Footer with contact details, rights reserved and disclaimer
 
 Disclaimer (to appear in footer, in small font):
 

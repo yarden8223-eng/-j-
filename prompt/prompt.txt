@@ -226,7 +226,7 @@ Additional Features
 Users can switch between English and Hebrew at any time using a language toggle in the header.
 The default language need to be Hebrew.
 In Hebrew the Top navigation bar with all page links need to be right to left. For example the rightest need to be בית and then all the rest. 
-•	Newsletter Subscription
+
  include the following bilingual disclaimer at the bottom of every page (in small, discreet font)
 
 Include an option for visitors to subscribe for updates, new content, or course announcements.

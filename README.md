@@ -34,7 +34,7 @@ A professional, bilingual website for Yarden Gabbay, a Clinical Psychologist in 
 8. **Contact** - Contact form and information
 
 ### 🔧 Technical Features
-- Newsletter subscription functionality
+
 - Contact form with validation
 - FAQ accordion functionality
 - Smooth scrolling navigation
@@ -134,7 +134,7 @@ A professional, bilingual website for Yarden Gabbay, a Clinical Psychologist in 
 - Update the `languageContent` object in `script.js` for bilingual content
 - Modify CSS variables in `styles.css` for design changes
 
-### Newsletter and Contact Forms
+### Contact Forms
 - Currently configured for client-side handling
 - Form submissions are logged to console
 - Integrate with your preferred backend service for production

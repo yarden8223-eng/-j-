@@ -161,41 +161,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 500);
     }
     
-    // Newsletter form handling
-    const newsletterForms = document.querySelectorAll('.newsletter-form, .footer-newsletter');
-    newsletterForms.forEach(form => {
-        form.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            const email = this.querySelector('input[type="email"]').value;
-            const name = this.querySelector('input[type="text"]')?.value || '';
-            
-            if (email) {
-                // Here you would typically send the data to your server
-                console.log('Newsletter subscription:', { email, name });
-                
-                // Show success message
-                const currentLang = document.documentElement.getAttribute('lang') || 'he';
-                const successText = languageContent[currentLang]?.common?.newsletterSuccess || 'תודה על ההרשמה!';
-                const successMsg = document.createElement('div');
-                successMsg.textContent = successText;
-                successMsg.style.cssText = `
-                    color: #a06a4d;
-                    font-weight: 600;
-                    margin-top: 1rem;
-                    text-align: center;
-                `;
-                
-                this.appendChild(successMsg);
-                this.reset();
-                
-                // Remove success message after 3 seconds
-                setTimeout(() => {
-                    successMsg.remove();
-                }, 3000);
-            }
-        });
-    });
+
     
     // FAQ items now use speech bubble layout with answers visible by default
     // No JavaScript functionality needed for the new design
@@ -287,7 +253,6 @@ const languageContent = {
             welcome: 'ברוכים הבאים, שמי ירדן גבאי, ואני פסיכולוגית קלינית...'
         },
         common: {
-            newsletterSuccess: 'תודה על ההרשמה!',
             contactSuccess: 'תודה על הפנייה! אחזור אליך בהקדם.',
             readMore: 'קרא עוד',
             backToPublications: 'חזרה לפרסומים',
@@ -311,7 +276,6 @@ const languageContent = {
             welcome: 'Welcome, I\'m Yarden Gabbay, a Clinical Psychologist...'
         },
         common: {
-            newsletterSuccess: 'Thank you for subscribing!',
             contactSuccess: 'Thank you for your message! I\'ll get back to you soon.',
             readMore: 'Read More',
             backToPublications: 'Back to Publications',
