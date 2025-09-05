@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://yardengabbay.com/sitemap.xml
+
+# Disallow access to sensitive directories
+Disallow: /documents/
+Disallow: /prompt/
+Disallow: /כתבות/
+
+# Allow access to main content
+Allow: /assets/
+Allow: /*.html
+Allow: /*.css
+Allow: /*.js
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.png
+Allow: /*.gif
+Allow: /*.webp
+
+# Crawl delay (optional - helps prevent overloading server)
+Crawl-delay: 1
