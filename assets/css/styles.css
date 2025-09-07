@@ -349,10 +349,6 @@ p {
     align-items: center;
 }
 
-.nav-logo .logo-img {
-    height: 50px;
-    width: auto;
-}
 
 .nav-menu {
     display: flex;
@@ -423,6 +419,31 @@ p {
     background: var(--accent-primary);
     color: white;
     border-color: var(--accent-primary);
+}
+
+/* Flag button styles */
+.flag-btn {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    border: 2px solid var(--border-color);
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.flag-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.flag-btn.active {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 2px rgba(160, 106, 77, 0.2);
 }
 
 /* Hero Section */
@@ -2038,11 +2059,31 @@ p {
 }
 
 /* Logo and Navigation Enhancements */
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: var(--bg-primary);
+    padding: 0;
+    border: none;
+    border-radius: 0;
+}
+
 .logo-image {
     height: 50px;
     width: auto;
     transition: all 0.3s ease;
     animation: fadeInUp 0.6s ease forwards;
+    object-fit: contain;
+    object-position: center;
+    max-width: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    filter: none !important;
+    background: var(--bg-primary) !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 .logo-image:hover {
@@ -2066,6 +2107,15 @@ p {
     height: 40px;
     width: auto;
     margin-bottom: 1rem;
+    object-fit: contain;
+    object-position: center;
+    max-width: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    filter: none !important;
+    background: var(--bg-primary) !important;
+    border: none !important;
+    padding: 0 !important;
 }
 
 /* Language Toggle Enhancements */
